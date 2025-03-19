@@ -34,9 +34,12 @@
 
   </head>
 
-  <body>
+  <body class="container mx-auto">
+    <h1 class="bg-secondary">loẻm</h1>
+    <%= render 'layouts/header' %>
     <main class="container mx-auto mt-28 px-5 flex">
       <%= yield %>
     </main>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
