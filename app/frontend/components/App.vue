@@ -23,7 +23,7 @@ h1 {
 
 <template>
   <div>
-    <h1>{{ count }}</h1>
+    <h1 class="text-primary">{{ count }}</h1>
     <h1>{{ count2 }}</h1>
     <div @click="increment">+</div>
     <div @click="decrement">-</div>
@@ -32,8 +32,8 @@ h1 {
 </template>
 
 <script>
-import { useCounterStore } from '../stores/counter';
-import { storeToRefs } from 'pinia';
+import { useCounterStore } from "../stores/counter";
+import { storeToRefs } from "pinia";
 
 export default {
   setup() {
@@ -41,8 +41,8 @@ export default {
     const { count, count2 } = storeToRefs(counterStore);
     const { increment, decrement, reset } = counterStore;
     return { count, count2, increment, decrement, reset };
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>
