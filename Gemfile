@@ -66,3 +66,9 @@ group :test do
 end
 
 gem "tailwindcss-rails", "~> 3.3.1"
+gem 'httparty'
+gem 'hashie'
+gem 'parallel'
+gem 'csv'
+
+

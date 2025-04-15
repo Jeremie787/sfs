@@ -12,4 +12,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  post '/subscribe', to: 'home_pages#subscribe', defaults: { format: :csv }
+
 end

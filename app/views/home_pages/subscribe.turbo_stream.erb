@@ -1,0 +1,23 @@
+<%= turbo_stream.replace "posts-container" do %>
+    <div id="posts-container">      
+      <table>
+        <tbody>
+            <tr class="ant-descriptions-row">
+                <td class="ant-descriptions-item font-bold !pb-1" colspan="1">
+                <div class="ant-descriptions-item-container">
+                    <span class="ant-descriptions-item-content">Tổng thanh toán:</span>
+                </div>
+                </td>
+                <td class="ant-descriptions-item font-bold !pb-1" colspan="1">
+                <div class="ant-descriptions-item-container">
+                    <span class="ant-descriptions-item-content">
+                    <div class="text-right w-[100%]"><%= @total %>đ</div>
+                    </span>
+                </div>
+                </td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  <% end %>
+  
