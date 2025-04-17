@@ -18,3 +18,11 @@
   </div>
 <% end %>
 <%= render "shared/error", object: @posts %>
+
+
+
+<form action="/upload" method="post" enctype="multipart/form-data" data-turbo="false">
+  <label for="file">Chọn hoặc kéo thả file CSV:</label><br>
+  <input type="file" name="file" id="file" accept=".csv"><br><br>
+  <input type="submit" value="Tải lên">
+</form>
