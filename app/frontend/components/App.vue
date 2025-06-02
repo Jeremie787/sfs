@@ -2,7 +2,7 @@
   <div>
     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, nam quam! Deleniti praesentium ex
       necessitatibus nulla eveniet quod neque perspiciatis, tempora blanditiis in repellat atque eligendi incidunt!
-      Explicabo, sint quo.</h1>
+      Explicabo, sint quot.</h1>
       <span>{{ counter }}</span>
   </div>
 </template>
